@@ -129,7 +129,7 @@
 
   /**
    * Initialize hover effect and click functionality for portfolio items
-   */
+   
   document.addEventListener('DOMContentLoaded', function() {
     const portfolioItems = select('.portfolio-item');
     portfolioItems.forEach(item => {
@@ -149,6 +149,7 @@
       });
     });
   });
+  */
 
   /**
    * Hero type effect
@@ -239,7 +240,7 @@
 
   /**
    * Testimonials slider
-   */
+   
   new Swiper('.testimonials-slider', {
     speed: 600,
     loop: true,
@@ -265,6 +266,7 @@
       }
     }
   });
+  */
 
   /**
    * Animation on scroll
